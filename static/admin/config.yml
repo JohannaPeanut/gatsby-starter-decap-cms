@@ -26,6 +26,9 @@ collections:
           default: "blog-post",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subTitle", widget: "string" }
+      - { label: "intro", name: "intro", widget: "string" }
+      - { label: "introTWO", name: "introTWO", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
